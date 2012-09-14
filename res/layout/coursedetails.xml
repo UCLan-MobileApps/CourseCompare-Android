@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="match_parent"
+           android:layout_height="fill_parent"
+           android:layout_gravity="center"
+           android:background="#f36d24"
+           android:orientation="vertical" >
+
+           <ImageView
+               android:id="@+id/imageView1"
+               android:layout_width="fill_parent"
+               android:layout_height="50dp"
+               android:layout_gravity="center"
+               android:contentDescription="Course Details"
+               android:src="@drawable/coursedetails" />
+
+           <TextView
+               android:id="@+id/title"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Course Title"
+               android:textAppearance="?android:attr/textAppearanceMedium" 
+               android:layout_gravity="center" 
+               android:gravity="center"/>
+
+           <ExpandableListView
+               android:id="@+id/android:list"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" >
+
+           </ExpandableListView>
+
+       </LinearLayout>
